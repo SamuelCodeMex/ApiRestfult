@@ -1,0 +1,25 @@
+[06-May-2024 17:37:47 Europe/Berlin] comenzando
+[06-May-2024 17:37:47 Europe/Berlin] comenzando
+[05-Sep-2024 03:46:04 Europe/Berlin] PHP Warning:  Undefined array key "email_client " in C:\xamppp\htdocs\apirest-dinamica\controllers\post.controller.php on line 58
+[05-Sep-2024 03:47:56 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\xamppp\htdocs\apirest-dinamica\models\post.model.php:39
+Stack trace:
+#0 C:\xamppp\htdocs\apirest-dinamica\models\post.model.php(39): PDOStatement->execute()
+#1 C:\xamppp\htdocs\apirest-dinamica\controllers\post.controller.php(50): PostModel::postData('clients', Array)
+#2 C:\xamppp\htdocs\apirest-dinamica\routes\services\post.php(47): PostController::postRegister('clients', Array, 'client ')
+#3 C:\xamppp\htdocs\apirest-dinamica\routes\routes.php(83): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\apirest-dinamica\controllers\routes.controller.php(13): include('C:\\xamppp\\htdoc...')
+#5 C:\xamppp\htdocs\apirest-dinamica\index.php(29): RoutesController->index()
+#6 {main}
+  thrown in C:\xamppp\htdocs\apirest-dinamica\models\post.model.php on line 39
+[05-Sep-2024 03:56:32 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xamppp\htdocs\apirest-dinamica\models\connection.php on line 107
+[05-Sep-2024 03:57:10 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xamppp\htdocs\apirest-dinamica\models\connection.php on line 107
+[19-Sep-2024 17:05:32 America/New_York] funciona
+[19-Sep-2024 15:09:04 America/Mexico_City] funciona
+[19-Dec-2024 07:56:45 America/Mexico_City] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\api\001\models\connection.php on line 107
+[19-Dec-2024 07:57:02 America/Mexico_City] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\api\001\models\connection.php on line 107
+[19-Dec-2024 08:00:37 America/Mexico_City] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\api\001\models\connection.php on line 107
+[19-Dec-2024 08:03:01 America/Mexico_City] PHP Warning:  Array to string conversion in C:\xampp\htdocs\api\001\models\connection.php on line 96
+[19-Dec-2024 08:03:01 America/Mexico_City] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\api\001\models\connection.php on line 107
+[19-Dec-2024 08:03:41 America/Mexico_City] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\api\001\models\connection.php on line 107
+[19-Dec-2024 08:08:53 America/Mexico_City] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\api\001\models\connection.php on line 107
+[19-Dec-2024 08:09:58 America/Mexico_City] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\api\001\models\connection.php on line 107
